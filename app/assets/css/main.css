@@ -1,0 +1,6 @@
+@import "tailwindcss";
+body { @apply bg-stone-50 text-stone-900; font-family: system-ui, sans-serif; }
+input, select { @apply w-full rounded border border-stone-400 bg-white p-3; }
+button { @apply rounded bg-emerald-800 px-4 py-3 text-white disabled:opacity-50; }
+label { @apply block space-y-1; }
+a { @apply text-emerald-800 underline; }
